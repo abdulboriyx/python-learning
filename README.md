@@ -1,4 +1,4 @@
-# python-learning
+# Python 
 
 I have started learning Python through Harvard's CS50P course. Here, I record my Python learning journey. 
 
@@ -15,6 +15,7 @@ I have learnt:
 November 8th (2024) - I completed the second lecture of CS50P, covering conditionals and booleans.
 
 I have learnt: 
+
       - if, elif and else
       
       - match and case 
