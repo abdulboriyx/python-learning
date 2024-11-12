@@ -20,3 +20,11 @@ I have learnt:
       - match and case 
 
       - return
+
+November 12th 2024 - I completed third lecture of CS50P, covering loops and dictionaries.
+
+I have learnt:
+
+      - while, for
+
+      - dictionaries
