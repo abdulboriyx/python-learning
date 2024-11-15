@@ -30,3 +30,10 @@ I have learnt:
       - while, for
 
       - dictionaries
+
+November 15th 2024 - I completed fourth lecture of CS50P, covering exceptions
+
+I have learnt:
+
+      - try and exception
+      - debugging
