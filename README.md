@@ -37,3 +37,6 @@ I have learnt:
 
       - try and exception
       - debugging
+
+
+Created folder named "Practice" to practice & review every concept that I learnt and write Python code related to them.
