@@ -40,3 +40,12 @@ I have learnt:
 
 
 Created folder named "Practice" to practice & review every concept that I learnt and write Python code related to them.
+
+November 27th 2024 - I completed fifth lecture of CS50P, covering libraries
+
+I have learnt: 
+
+      - random
+      - import
+
+      Moreover, I have created random-pair.py file to randomly choose GOAT artist. 
