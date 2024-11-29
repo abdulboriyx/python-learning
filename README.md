@@ -49,3 +49,9 @@ I have learnt:
       - import
 
       Moreover, I have created random-pair.py file to randomly choose GOAT artist. 
+
+November 29th 2024 - I completed sixth lecture of CS50P, covering unit tests
+
+I have learnt:
+      - pytest
+      - assert
