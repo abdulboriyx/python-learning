@@ -55,3 +55,14 @@ November 29th 2024 - I completed sixth lecture of CS50P, covering unit tests
 I have learnt:
       - pytest
       - assert
+
+December 5th, 2024 - I completed the seventh lecture of CS50P, covering I/O:
+
+I have learnt:
+      - open
+      - with
+      - csv
+      - write
+      - readline
+      - sorted
+Moreover, I have created files Practice/csv-io.py and Practice/io-practice.py, rapname.csv, rapname.txt, laliga-standing.csv files to practice I/O more. 
