@@ -61,7 +61,7 @@ I have learnt:
 
 
 December 5th, 2024 - I completed the seventh lecture of CS50P, covering I/O:
-
+      
 I have learnt:
 
       - open
@@ -73,3 +73,15 @@ I have learnt:
 
 
 Moreover, I have created files Practice/csv-io.py and Practice/io-practice.py, rapname.csv, rapname.txt, laliga-standing.csv files to practice I/O more. 
+
+
+December 13th, 2024 - I completed the eighth lecture of CS50P, covering Regex:
+
+I have learnt:
+
+      - re library
+      - r for string
+      - re.sub
+      - re.search
+      - :=
+      
