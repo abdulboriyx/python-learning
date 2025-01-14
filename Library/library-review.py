@@ -40,27 +40,6 @@ except IndexError:
       print('Too few arguments')
 
 
-users = [
-      {'username': 'abdulboriyx', 'password': 'rais1202!'},
-      {'username': 'raxmatillo_', 'password': 'tillo2557'}, 
-      {'username': 'xojiakbar_anvarovich', 'password': 'jojo1234'}
-]
-
-
-
-for user in users:
-      if sys.argv[1] == user['username']:
-            print(f'username is found: {user['username']}')
-            break
-      else:
-            print('Username is not found')
-            
-
-for user in users:
-      if sys.argv[1] != user['password']:
-            sys.exit('Incorrect password!')
-      else:
-            print('You entered correct password')
 
 ############################################################
 
