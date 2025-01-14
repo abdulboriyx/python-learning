@@ -1,7 +1,5 @@
-from hello import hello
+from hello import hi_func
 
-def test_default():
-      assert hello() == "hello, world"
-
-def test_argument():
-      assert hello("Abdulboriy") == "hello, Abdulboriy"
+def test_hi():
+      assert hi_func('Abdulboriy') == 'hello, Abdulboriy'
+      assert hi_func() == 'hello, world'
