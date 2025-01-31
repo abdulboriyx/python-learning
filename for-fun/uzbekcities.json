@@ -1,0 +1,24 @@
+{
+    "flights": [
+        {
+            "flying": "Uchquduq",
+            "landing": "Buenos Aires",
+            "flight": "Uchquduq - Buenos Aires"
+        },
+        {
+            "flying": "Beshariq",
+            "landing": "Madrid",
+            "flight": "Beshariq - Madrid"
+        },
+        {
+            "flying": "Beshariq",
+            "landing": "Lissabon",
+            "flight": "Beshariq - Lissabon"
+        },
+        {
+            "flying": "Beshariq",
+            "landing": "Istanbul",
+            "flight": "Beshariq - Istanbul"
+        }
+    ]
+}

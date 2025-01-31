@@ -1,0 +1,58 @@
+{
+    "users": [
+        {
+            "name": "Abdulboriy",
+            "email": "abdulboriyx@gmail.com",
+            "username": "abdulboriyx",
+            "password": "Abdulboriyx19!"
+        },
+        {
+            "name": "Josh",
+            "email": "josh17@email.com",
+            "username": "josh17",
+            "password": "Qwerty1234"
+        },
+        {
+            "name": "John",
+            "email": "john11@gmail.com",
+            "username": "john11",
+            "password": "john99!"
+        },
+        {
+            "name": "Kevin",
+            "email": "kevinhart@hotmail.net",
+            "username": "keviny",
+            "password": "kev1111"
+        },
+        {
+            "name": "abde12",
+            "email": "abde12@gmail.com",
+            "username": "abde1234",
+            "password": "abde1222"
+        },
+        {
+            "name": "abdulboriy",
+            "email": "abdulboriys17@gmail.com",
+            "username": "xzer112",
+            "password": "xzer1112!"
+        },
+        {
+            "name": "abdulboriy",
+            "email": "abde",
+            "username": "abdeeqwqqqa",
+            "password": "abdnqvevk12!"
+        },
+        {
+            "name": "abdulboriy",
+            "email": "sssa",
+            "username": "abduelq",
+            "password": "aaasqsd"
+        },
+        {
+            "name": "abdulboriy",
+            "email": "saaaa",
+            "username": "aduwb",
+            "password": "abdbq"
+        }
+    ]
+}

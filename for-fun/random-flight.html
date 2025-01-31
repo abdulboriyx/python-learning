@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flight Finder</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f4f4f9;
+      text-align: center;
+    }
+    .flight-list {
+      margin: 20px 0;
+    }
+    .flight-item {
+      margin: 10px;
+      padding: 10px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      width: 300px;
+      margin: 10px auto;
+      text-align: left;
+    }
+    button {
+      padding: 10px 20px;
+      border: none;
+      background-color: #007bff;
+      color: white;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Flight Finder</h1>
+
+<button onclick="getRandomFlight()">Get Random Flight</button>
+
+<div class="flight-list" id="flightList">
+  <!-- List of flights will be displayed here -->
+</div>
+
+<script>
+// Function to fetch flight data and display the flights
+function displayFlights(flights) {
+    const flightList = document.getElementById('flightList');
+    flightList.innerHTML = ''; // Clear any existing flights
+
+    flights.forEach(flight => {
+        const flightItem = document.createElement('div');
+        flightItem.classList.add('flight-item');
+        flightItem.innerHTML = `<strong>Flight:</strong> ${flight.flight} <br> 
+                               <strong>Flying From:</strong> ${flight.flying} <br>
+                               <strong>Landing In:</strong> ${flight.landing}`;
+        flightList.appendChild(flightItem);
+    });
+}
+
+// Function to get random flight data from the backend
+function getRandomFlight() {
+    fetch('http://localhost:5000/random-flight')
+    .then(response => response.json())
+    .then(data => {
+        // Display the random flight returned from backend
+        displayFlights([data]);
+    })
+    .catch(error => {
+        console.log('Error:', error);
+    });
+}
+
+// Initial load of flights (get from JSON or static file)
+document.addEventListener('DOMContentLoaded', function() {
+    fetch('http://localhost:5000/flights')
+    .then(response => response.json())
+    .then(data => {
+        // Display the list of flights loaded from the JSON
+        displayFlights(data.flights);
+    })
+    .catch(error => {
+        console.log('Error:', error);
+    });
+});
+</script>
+
+</body>
+</html>
