@@ -1,0 +1,9 @@
+List - contains any type of data and elements inside list can be changed or reassigned; [] are used for list
+
+Tuple - contains any type of data, however elements inside tuple can't be changed or reassigned; () are used for tuple
+
+Set - unordered data type, they can't be accessed with indexing like list or tuple; elements can be removed or added; no duplication
+
+Dictionary - key-value pair data type; keys are unique and immutable while values can be repeated and changeable; compared to list, dict is faster
+
+JSON - language independent, lightweight datainterchanging format; is used to send data between computers;
