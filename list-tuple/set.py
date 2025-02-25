@@ -1,26 +1,23 @@
-alex = set(['Hip-Hop', 'Football', 'NBA', 'Streamers'])
-mehrinoz = set(['Pop', 'Movies', 'Books', 'Ping-pong'])
-jahonbaxsh = set(['Rock', 'Football', 'UFC', 'Tech'])
-ali = set(['R&B', 'Philosophy', 'AI', 'Sci-fi', 'Robotics', 'Maths'])
+# subcribed users
+# subscribers = {'Alex', 'Sergei', 'Abdulloh', 'Ali', 'Nazarbek', 'Oyniso', 'Jahonbaxsh', 'Azamat', 'Anvar', 'Gaf\'ur', 'G\'ulom', 'Taylor', 'Kendrick', 'Marcos', 'Mark', 'Steven'}
 
 
-# my_interests = set(['Soccer', 'Clothing', 'Reading', 'Music', 'Coding'])
-my_interests = input('Enter your interests: ')
-interest_set = set(my_interests.split(', '))
+# subscriber = input('Enter your name: ')
+# if subscriber in subscribers:
+#       print('You are already subscribed. Enjoy the app')
+# else:
+#       subscribers.add(subscriber)
+#       print('You are subscribed to our app. Thank you for your subscription. ')
+
+# basket
+
+shopping_list = {'T Shirt', 'NB sneakers', 'Polo Shirt', 'LV shorts', 'NB socks', 'North Face Jacket', 'Cap', 'Tom Ford', 'Casio'}
+basket = set(input('What have you bought already?: ').split(', '))
+intersection = shopping_list & basket
+difference = shopping_list - basket
+
+intersection_str = ', '.join(intersection)
+difference_str = ', '.join(difference)
 
 
-common_alex = interest_set & alex
-common_mehrinoz = interest_set & mehrinoz
-common_jahonbaxsh = interest_set & jahonbaxsh
-common_ali = interest_set & ali
-
-alex_list = list(common_alex)
-mehrinoz_list = list(common_mehrinoz)
-jahonbaxsh_list = list(common_jahonbaxsh)
-ali_list = list(common_ali)
-
-
-print('You have these common interests with Alex:', *alex_list if alex_list else ['None'])
-print('You have these common interests with Mehrinoz:', *mehrinoz_list if mehrinoz_list else ['None'])
-print('You have these common interests with Jahonbaxsh:', *jahonbaxsh_list if jahonbaxsh_list else ['None'])
-print('You have these common interests with Ali:', *ali_list if ali_list else ['None'])
+print(f'You have bought {intersection_str}. You didn\'t buy {difference_str} yet.')
