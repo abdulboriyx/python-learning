@@ -1,0 +1,34 @@
+{
+  "Milan": [
+    "Inter Milan",
+    "Milan"
+  ],
+  "London": [
+    "Arsenal",
+    "Chelsea",
+    "Tottenham Hotspur",
+    "West Ham",
+    "Crystal Palace",
+    "Brentford",
+    "Millwall",
+    "Milwall"
+  ],
+  "Madrid": [
+    "Atletico Madrid",
+    "Getafe CF",
+    "CD Leganes",
+    "Rayo Vallecano",
+    "Real Madrid"
+  ],
+  "Barcelona": [
+    "Barcelona",
+    "Espanyol"
+  ],
+  "Turin": [
+    "Juventus",
+    "Torino"
+  ],
+  "Istanbul": [
+    "Galatasaray"
+  ]
+}

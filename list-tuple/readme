@@ -7,3 +7,21 @@ Set - unordered data type, they can't be accessed with indexing like list or tup
 Dictionary - key-value pair data type; keys are unique and immutable while values can be repeated and changeable; compared to list, dict is faster
 
 JSON - language independent, lightweight datainterchanging format; is used to send data between computers;
+
+json.dumps gives back string to use in python code; json.dump is used to write into json file itself;
+
+Hashable - are objects that have fixed hash value, dict, set and tuple can be example for them. List is unhashable because it is mutable -> meaning the content inside list can be changed, modified and don't need to be unique
+
+Dictionary keys -> must be hashable objects
+
+Duplicated keys are also NOT allowed in Python dict. Instead of adding new key-pair value, you delete the previous one and change it with the new one if you want to add new key-pair value. 
+
+However, there is no restriction for value data types; you can input anything, literally any data type you want; 
+
+Positional argument - takes them in order, and passes it to function. Function takes them in their specific order, and uses it them in specific order. 
+
+Keyword argument - passes through parameter name so the order doesn't matter so much. 
+
+Args - takes positional arguments, collects them into tuple, and returns. 
+
+Kwargs - takes kewyword arguments, collects them into dict, and returns dict. 
