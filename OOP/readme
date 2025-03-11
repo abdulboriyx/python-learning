@@ -1,0 +1,2 @@
+__new__ is a special method in Python used to control the creation of new instances. It is primarily used in the Singleton pattern to ensure that only one instance of a class is created and used throughout the program. By overriding __new__, you can control whether a new instance is created or an existing one is returned.
+

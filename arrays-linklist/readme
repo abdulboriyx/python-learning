@@ -1,0 +1,12 @@
+Stack - is a data structure in Python that works in a LIFO (Last In, First Out) format. You can imagine it as a stack of books, where the last book added is the first one to be retrieved. 
+From top to bottom:
+|
+|
+|
+|
+
+Queue - is a data structure in Python that works in a FIFO (First In, First Out) format. You can imagine it as a queue of people for restaruant, where the first person arrived is the first person to be served. 
+From left to right: 
+----------------
+
+Linked lists are generally better for insertion and removal of elements (especially when done at the beginning or in the middle) because they don't require shifting elements in memory. For lists (arrays), shifting can lead to O(n) time complexity, while linked lists can perform these operations in O(1) time (if you already have a reference to the node).
